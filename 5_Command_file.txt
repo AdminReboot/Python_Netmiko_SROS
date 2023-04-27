@@ -1,0 +1,16 @@
+/configure router interface LB100
+address 192.168.10.1/24
+loopback
+/configure router interface LB200
+address 192.168.20.1/24
+loopback
+/configure router interface LB300
+address 192.168.30.1/24
+loopback
+/configure router interface LB400
+address 192.168.40.1/24
+loopback
+/configure router interface LB500
+address 192.168.50.1/24
+loopback
+/admin save
